@@ -15,6 +15,7 @@ public class Q10950 {
             int B = sc.nextInt();
 
             System.out.println(A + B);
+            System.out.println("수정");
         }
     }
 }
