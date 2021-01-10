@@ -1,7 +1,8 @@
 package beakjoon;
 
 import java.util.Scanner;
-
+//2021.01.10
+//더하기 사이클 준성이가 도와줌
 public class Q1110 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -20,6 +21,5 @@ public class Q1110 {
             }
         }
         System.out.println(사이클수);
-
     }
 }

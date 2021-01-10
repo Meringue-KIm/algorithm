@@ -8,8 +8,8 @@ public class Q2562JSJSJSJSJSJSJS {
 
         Scanner sc = new Scanner(System.in);
 
-        int a = 0;
-        int b = 0;
+        int a = 0; //최댓값 저장소
+        int b = 0; //몇번째 입력값 저장소
 
         for(int i = 1; i <= 9; i++) {
             int c = sc.nextInt();
