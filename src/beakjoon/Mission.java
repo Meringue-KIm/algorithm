@@ -3,7 +3,7 @@ package beakjoon;
 import java.util.Random;
 import java.util.Scanner;
 //2021.01.19
-//숫자야구 연습중
+//숫자야구 연습중!
 public class Mission {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
