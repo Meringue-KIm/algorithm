@@ -2,6 +2,7 @@ package beakjoon;
 
 import java.util.Scanner;
 // 다 못풀었음
+//2839 설탕가게 다시 풀기
 public class HIHIHIHI {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

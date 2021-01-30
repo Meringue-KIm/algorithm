@@ -1,24 +1,24 @@
 package beakjoon;
 
 import java.util.Scanner;
-// 다 못풀었음
+
+// 어렵..
 public class Q2839 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int num = scanner.nextInt();
-        int count5 = 0;
-        int count3 = 0;
 
-        for (int i = 0; i < 1; i++) {
-            count5 = num / 5;
-            if (num % 3 == 0) {
-                count3++;
-            } else {
-                System.out.println(-1);
-            }
-        }
-        if (count5 + count3 != 0) {
-            System.out.println(count5 + count3);
+        Scanner in = new Scanner(System.in);
+
+        int N = in.nextInt();
+
+
+        if (N == 4 || N == 7) {
+            System.out.println(-1);
+        } else if (N % 5 == 0) {
+            System.out.println(N / 5);
+        } else if (N % 5 == 1 || N % 5 == 3) {
+            System.out.println((N / 5) + 1);
+        } else if (N % 5 == 2 || N % 5 == 4) {
+            System.out.println((N / 5) + 2);
         }
     }
 }
