@@ -1,5 +1,6 @@
 package beakjoon;
-
+//2021.02.08
+//아직 안풀었음
 import java.util.Scanner;
 
 public class Q2908 {
