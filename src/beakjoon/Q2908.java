@@ -2,6 +2,7 @@ package beakjoon;
 //2021.02.08
 //아직 안풀었음
 //StringBuilder().append(A).reverse().toString() 공부하기
+//2021.02.12 풀었음
 import java.util.Scanner;
 
 public class Q2908 {
