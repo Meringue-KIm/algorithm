@@ -1,5 +1,6 @@
 package beakjoon;
 //2021.02.07
+
 import java.util.Scanner;
 
 public class Q11718 {
@@ -10,6 +11,5 @@ public class Q11718 {
             String str = scanner.nextLine();
             System.out.println(str);
         }
-        scanner.close();
     }
 }
