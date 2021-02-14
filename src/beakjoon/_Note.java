@@ -2,11 +2,34 @@ package beakjoon;
 //2021.01.16
 //연습장
 
+import java.util.Scanner;
+
 //
-//import java.util.Scanner;
-////charAt(); 사용 ex)
+////import java.util.Scanner;
+//////charAt(); 사용 ex)
 //public class _Note {
 //    public static void main(String[] args) {
+//        Scanner scanner = new Scanner(System.in);
+//
+//        int num = scanner.nextInt();
+//
+//        for (int i = 1; i < 3; ++i) {
+//            num += i;
+//        }
+//        System.out.println(num);
+//
+//
+
+
+
+
+
+
+
+
+
+
+
 //        Scanner sc = new Scanner(System.in);
 //
 //        char c1 = ' ';
@@ -29,7 +52,7 @@ package beakjoon;
 //        int num1 = Integer.parseInt(strNum1);
 //        int num2 = Integer.parseInt(strNum2);
 //
-//        System.out.println(num1 + num2);
+////        System.out.println(num1 + num2);
 //    }
 //}
 //
