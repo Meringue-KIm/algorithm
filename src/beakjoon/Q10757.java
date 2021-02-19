@@ -20,6 +20,5 @@ public class Q10757 {
         num = num.add(B);
 
         System.out.println(num);
-
     }
 }
