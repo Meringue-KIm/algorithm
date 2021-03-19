@@ -1,21 +1,24 @@
 package beakjoon;
 //2021.03.17
+//2021.03.19 구글검색함
 import java.util.Scanner;
 
 public class Q2953 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        int[] arr = new int[4];
+        Scanner sc = new Scanner(System.in);
         int max = 0;
-        int max1 = 0;
-
+        int index = 0;
         for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < arr.length; j++) {
-                arr[j] = scanner.nextInt();
-                max = max + arr[j];
+            int sum = 0;
+            for (int j = 0; j < 4; j++) {
+                int score = sc.nextInt();
+                sum += score;
+                if (max <= sum) {
+                    max = sum;
+                    index = i + 1;
+                }
             }
-            if (max1 > max) {
         }
+        System.out.print(index + " " + max);
     }
 }
