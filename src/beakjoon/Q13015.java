@@ -1,5 +1,5 @@
 package beakjoon;
-//2021.03.29
+//2021.03.29.
 //for문이 동작하고 다시 돌기전에 출력
 import java.util.Scanner;
 
