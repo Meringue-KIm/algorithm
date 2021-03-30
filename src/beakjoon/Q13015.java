@@ -1,36 +1,87 @@
 package beakjoon;
-//2021.03.29.
-//for문이 동작하고 다시 돌기전에 출력
+//2021.03.31
+//풀이 해석중
 import java.util.Scanner;
 
 public class Q13015 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int num = scanner.nextInt();
-        int count = 0;
+        Scanner sc = new Scanner(System.in);
 
-        for (int i = 0; i < 2; i++) {
-            for (int j = 0; j < num; j++) {
-                System.out.print("*");
-            }
-            for (int j = 0; j < (num * 2) - 3; j++) {
-                if (i == 0) {
-                    System.out.print(" ");
-                }
-            }
+        int n = sc.nextInt();
+        int nm = n - 1;
+        int nmm = n - 2;
+        int k = 0;
+        // 상단
+        for (int j = 0; j < n; j++) {
+            System.out.print("*");
         }
-
-
-        for (int i = 0; i < num - 1; i++) {
+        for (int j = 0; j < (2 * n) - 3; j++) {
+            System.out.print(" ");
+        }
+        for (int j = 0; j < n; j++) {
+            System.out.print("*");
+        }
+        System.out.println();
+        // 몸통 (상단)
+        for (int i = 0; i < nm; i++) {
             for (int j = 0; j < i + 1; j++) {
                 System.out.print(" ");
             }
-            for (int j = 0; j < 1; j++) {
+            System.out.print("*");
+            for (int j = 0; j < n - 2; j++) {
+                System.out.print(" ");
+            }
+            System.out.print("*");
+            for (int j = 0; j < 2 * (n + 1) - k - 7; j++) {
+                System.out.print(" ");
+            }
+            if (nm == i + 1) {
+                System.out.print("");
+                for (int j = 0; j < n - 2; j++) {
+                    System.out.print(" ");
+                }
                 System.out.print("*");
+            } else {
+                System.out.print("*");
+                for (int j = 0; j < n - 2; j++) {
+                    System.out.print(" ");
+                }
+                System.out.print("*");
+                System.out.println();
+                k += 2;
             }
-            for (int j = 0; j < ; j++) {
-                
+        }
+        System.out.println();
+        // 몸통 (하단)
+        for (int i = 0; i < nmm; i++) {
+            for (int j = 0; j < nmm - i; j++) {
+                System.out.print(" ");
             }
+            System.out.print("*");
+            for (int j = 0; j < n - 2; j++) {
+                System.out.print(" ");
+            }
+            System.out.print("*");
+            for (int j = 0; j < (2 * i) + 1; j++) {
+                System.out.print(" ");
+            }
+            System.out.print("*");
+            for (int j = 0; j < n - 2; j++) {
+                System.out.print(" ");
+            }
+            System.out.print("*");
+            System.out.println();
+
+        }
+
+        for (int j = 0; j < n; j++) {
+            System.out.print("*");
+        }
+        for (int j = 0; j < (2 * n) - 3; j++) {
+            System.out.print(" ");
+        }
+        for (int j = 0; j < n; j++) {
+            System.out.print("*");
         }
 
     }
