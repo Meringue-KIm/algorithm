@@ -1,5 +1,6 @@
 package beakjoon;
 //2021.04.02
+//2021.04.04
 //이해하기..
 import java.io.BufferedReader;
 import java.io.IOException;
