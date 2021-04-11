@@ -25,3 +25,4 @@ public class Q5543 {
         System.out.println(arr1[0]);
     }
 }
+
