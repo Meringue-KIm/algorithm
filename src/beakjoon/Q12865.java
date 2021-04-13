@@ -1,6 +1,6 @@
 package beakjoon;
 //2021.04.13
-//못품
+//못품 //실패작
 import java.util.Scanner;
 
 public class Q12865 {
@@ -28,6 +28,9 @@ public class Q12865 {
                 } else {
                     continue;
                 }
+            }
+            if (w[num] <= K && v[num] >= 정답) {
+                정답 = v[num];
             }
             num++;
             반복횟수--;
