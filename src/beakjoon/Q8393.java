@@ -10,9 +10,9 @@ public class Q8393 {
 
         int n = sc.nextInt();
 
-        int sum = 0;
-        for(int i=1; i <= n; i++) {
-            sum += i;
+        int sum = 0; // 저장공간
+        for (int i = 1; i <= n; i++) {
+            sum += i; //sum = sum + i
         }
         System.out.println(sum);
     }
