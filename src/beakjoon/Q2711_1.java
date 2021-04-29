@@ -1,5 +1,6 @@
 package beakjoon;
 //2021.04.28
+
 import java.util.Scanner;
 
 public class Q2711_1 {

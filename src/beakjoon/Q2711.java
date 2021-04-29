@@ -2,6 +2,7 @@ package beakjoon;
 //2021.04.24
 //틀림 동일한 값을 모두 빼버리는 현상
 //2711_1 로 다시풀기
+
 import java.util.Scanner;
 
 public class Q2711 {
