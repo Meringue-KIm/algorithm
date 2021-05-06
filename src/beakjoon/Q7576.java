@@ -7,14 +7,17 @@ public class Q7576 {
         Scanner scanner = new Scanner(System.in);
 
         String str = scanner.nextLine();
-        int 정답 = 0;
+        char ch = str.charAt(0);
+        int 정답 = 10;
 
-        for (int i = 0; i < str.length(); i++) {
-            if (i == 0) {
+        for (int i = 1; i < str.length(); i++) {
+            if (str.charAt(i) == ch) {
+                정답 = 정답 + 5;
+                ch = str.charAt(i);
+            } else {
                 정답 = 정답 + 10;
+                ch = str.charAt(i);
             }
-
-            if (str.charAt())
         }
         System.out.println(정답);
     }
