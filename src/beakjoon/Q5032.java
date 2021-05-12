@@ -20,7 +20,7 @@ public class Q5032 {
             while (sum >= c) {
                 sum = sum - c;
                 count++;
-            }
+            } //카운트가 c로 나눠질때 횟수를 카운트에 포함해야한다.
             while (count )
             System.out.println(count);
         }
