@@ -21,7 +21,7 @@ public class Q5032 {
                 sum = sum - c;
                 count++;
             } //카운트가 c로 나눠질때 횟수를 카운트에 포함해야한다.
-            while (count )
+            while (true)
             System.out.println(count);
         }
     }
