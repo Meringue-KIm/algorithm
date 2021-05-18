@@ -22,7 +22,6 @@ public class Q5032_1 {
                 num++;
                 count++;
             }
-
             num = num + sum;
             //남은 빈병과 오늘 마신 빈병을 더함
             if (num < c) {
