@@ -21,7 +21,7 @@ public class Q1546 {
         }
         for (int i = 0; i < a; i++) {
             arr[i] = arr[i] / z * 100;
-            w += arr[i];
+            w += arr[i];   // w = w + arr[i];
         }
         System.out.println(w / a);
     }
