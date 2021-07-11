@@ -1,6 +1,8 @@
 package beakjoon;
 //2021.07.03 - 시간초과 (Scanner 때문인가, System.out.print 때문인가..)
 //Builder 사용해서 다시 풀기
+//2021.07.11 - 입출력 문제가 아닙니다;;
+//알고리즘 시간복잡도 공부해서 다시 풀기
 import java.util.Arrays;
 import java.util.Scanner;
 
