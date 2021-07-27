@@ -2,6 +2,7 @@ package beakjoon;
 
 import java.util.Arrays;
 import java.util.Scanner;
+
 //2021.01.08
 //최소, 최대
 public class Q10818 {
@@ -15,6 +16,7 @@ public class Q10818 {
         for (int i = 0; i < N; i++) {
             arr[i] = in.nextInt();
         }
+
 
         in.close();
         Arrays.sort(arr);

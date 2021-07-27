@@ -17,10 +17,9 @@ public class Q2920 {
                 ascending++;
             } else if (arr[i] == 8 - i) {
                 descending++;
-            } else {
-                continue;
             }
         }
+
         if (ascending == 8) {
             System.out.println("ascending");
         } else if (descending == 8) {
