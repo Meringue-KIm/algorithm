@@ -13,7 +13,7 @@ public class Q10994 {
         int count = num - 1;
 
         for (int i = 0; i < num + count; i++) {
-            for (int j = 0; j < ; j++) {
+            for (int j = 0; j < 10; j++) {
                 
             }
         }
