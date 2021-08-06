@@ -1,7 +1,8 @@
 package beakjoon;
 //2021.08.05
+//2021.08.07 성공
+
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -10,21 +11,31 @@ public class Q2798 {
         Scanner scanner = new Scanner(System.in);
 
         int num = scanner.nextInt();
-        List <Integer> list = new ArrayList<>(num);
+        List<Integer> list = new ArrayList<>(num);
         int 기준 = scanner.nextInt();
 
         for (int i = 0; i < num; i++) {
             list.add(scanner.nextInt());
         }
+        int 정답 = 0;
+        for (int i = 0; i < num - 2; i++) {
 
-        List <Integer> list1 = new ArrayList<>();
-        for (int i = 0; i < num; i++) {
-            if (list.get(i) < 기준) {
-                list1.add(list.get(i));
+            for (int j = i + 1; j < num - 1; j++) {
+
+                for (int k = j + 1; k < num; k++) {
+
+                    int max = list.get(i) + list.get(j) + list.get(k);
+
+                    if (기준 == max) {
+                        정답 = max;
+                        break;
+                    }
+                    if (정답 < max && max < 기준) {
+                        정답 = max;
+                    }
+                }
             }
         }
-        Collections.sort(list);
-        System.out.println(Collections.max(list1));
-
+        System.out.println(정답);
     }
 }
