@@ -1,5 +1,6 @@
 package beakjoon;
 //2021.08.07
+//2021.08.13
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -21,9 +22,10 @@ public class Q2744 {
                         char 대문자 = 32;
                         char 저장공간 = 0;
                        저장공간 = arr.get(i);
-                       arr.add(i, 대문자 + 저장공간);
+                       arr.add(i, (char)(대문자 + 저장공간));
                     }
                 }
+                System.out.println(arr.get(i));
             }
         }
 
