@@ -1,6 +1,6 @@
 package beakjoon;
 //2021.08.20
-//LinkedList 활용 틀림
+//LinkedList 활용 맞춤
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class Q1158 {
         int N = scanner.nextInt();
         int K = scanner.nextInt();
 
-        for (int i = 0; i <= N; i++) {
+        for (int i = 1; i <= N; i++) {
             List.add(i);
         }
 
