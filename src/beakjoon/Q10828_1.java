@@ -1,6 +1,8 @@
 package beakjoon;
 //2021.08.22
 //stack 시간초과
+//2021.08.23
+//StringBuilder사용해서 시간초과 해결
 import java.util.Scanner;
 import java.util.Stack;
 
