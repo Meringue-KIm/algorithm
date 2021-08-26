@@ -1,6 +1,7 @@
 package beakjoon;
 //2021.08.25
 //중복되는 Stringbuiler.append를 제거
+//이해하기
 import java.util.Scanner;
 import java.util.Stack;
 
