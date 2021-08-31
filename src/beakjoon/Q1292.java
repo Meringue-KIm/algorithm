@@ -27,6 +27,5 @@ public class Q1292 {
             sum += arr[i];
         }
         System.out.println(sum);
-
     }
 }
