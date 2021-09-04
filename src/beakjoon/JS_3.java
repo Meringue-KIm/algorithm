@@ -1,8 +1,8 @@
 package beakjoon;
 //2021.06.08
 //ArrayList - 배열 빼기 만들기 (원하는 인덱스 입력시 삭제)
-import java.util.Scanner;
 
+import java.util.Scanner;
 
 
 public class JS_3 {
