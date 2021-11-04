@@ -2,7 +2,7 @@ package CodeUp;
 
 import java.util.Scanner;
 
-public class easy_000000 {
+public class easy_000000 extends easy_1 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
