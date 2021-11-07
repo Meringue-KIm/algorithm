@@ -13,7 +13,7 @@ public class CodingTest_2 {
         int count = str.length / 2;
         int num = 0;
 
-        String asfsdg = "gd";
+        String 정답 = "";
 
         for (int i = num; i < count; i++) {
             int reduction = 40;
@@ -34,26 +34,33 @@ public class CodingTest_2 {
             }
             num += 2;
         }
-        for (int i : list) {
-            System.out.println(i);
-        }
 
         int 합 = 0;
         for (int i : list) {
             if (i > 105) {
                 합 += 105;
-            } else if (i > 5){
+            } else if (i >= 5) {
                 합 += i;
             }
         }
         int 시간 = 합 / 60;
+        int 분 = 합 % 60;
 
-
-        return asfsdg;
+        if (시간 < 10) {
+            정답 = "0" + String.valueOf(시간);
+        } else {
+            정답 = String.valueOf(시간);
+        }
+        if (분 < 10) {
+            정답 += ":" + "0" + String.valueOf(분);
+        } else {
+            정답 += ":" + String.valueOf(분);
+        }
+        return 정답;
     }
 
     public static void main(String[] args) {
-        String[] str = {"08:30", "09:00", "14:00", "16:00", "16:01", "16:06", "16:07", "16:11"};
+        String[] str = {"01:00", "08:00", "15:00", "15:04", "23:00", "23:59"};
         System.out.println(solution(str));
     }
 }
