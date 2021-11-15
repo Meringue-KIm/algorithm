@@ -1,6 +1,7 @@
 package beakjoon;
 
 import java.util.Scanner;
+
 //2021.01.10
 //나머지
 public class Q3052 {
