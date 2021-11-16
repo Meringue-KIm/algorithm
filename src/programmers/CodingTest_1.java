@@ -43,7 +43,7 @@ public class CodingTest_1 {
     }
 
     public static void main(String[] args) {
-        int[] arr = {3, 3, 3,3,3,3,3};
+        int[] arr = {3, 3, 3, 3, 3, 3, 3};
         System.out.println(Arrays.toString(solution(arr)));
     }
 
