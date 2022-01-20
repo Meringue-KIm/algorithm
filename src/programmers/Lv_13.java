@@ -22,6 +22,5 @@ public class Lv_13 {
             count--;
         }
         return value;
-
     }
 }
