@@ -1,7 +1,7 @@
 package programmers;
 
 //제일 작은 수 제거하기
-public class Lv_14 {
+public class Lv1_14 {
 
     public int[] solution(int[] arr) {
         int[] numberArr = new int[arr.length - 1];

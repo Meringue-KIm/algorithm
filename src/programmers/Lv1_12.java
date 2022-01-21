@@ -2,7 +2,7 @@ package programmers;
 
 //신규 아이디 추천
 //정규식 공부하기
-public class Lv_12 {
+public class Lv1_12 {
 
     public String solution(String new_id) {
         String answer = new_id.toLowerCase();

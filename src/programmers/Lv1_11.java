@@ -1,6 +1,6 @@
 package programmers;
 //자릿수 더하기
-public class Lv_11 {
+public class Lv1_11 {
 
     public static int solution(int n) {
         int sum = 0;

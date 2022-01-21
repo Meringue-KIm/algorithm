@@ -1,6 +1,6 @@
 package programmers;
 //이상한 문자 만들기
-public class Lv_16 {
+public class Lv1_16 {
 
     public static String solution(String s) {
         StringBuilder value = new StringBuilder();

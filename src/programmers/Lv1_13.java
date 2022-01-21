@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Lv_13 {
+public class Lv1_13 {
 
     public long solution(long n) {
         List<Long> list = new ArrayList<>();

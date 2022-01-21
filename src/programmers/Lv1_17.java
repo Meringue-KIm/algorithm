@@ -1,6 +1,6 @@
 package programmers;
 
-public class Lv_17 {
+public class Lv1_17 {
 
     public long solution(long n) {
         long value = 0;
