@@ -1,7 +1,7 @@
 package programmers;
 
 import java.util.*;
-
+//두 개 뽑아서 더하기
 public class Lv1_27 {
 
     public static List<Integer> solution(int[] numbers) {
