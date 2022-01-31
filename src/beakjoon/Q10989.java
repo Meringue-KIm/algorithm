@@ -18,5 +18,6 @@ public class Q10989 {
         }
         System.out.println(stringBuffer);
     }
+
 }
 
