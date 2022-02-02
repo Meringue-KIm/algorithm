@@ -1,22 +1,30 @@
 package beakjoon;
 //2022.01.31
 //수 정렬하기3
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.*;
 
 public class Q10989 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = Integer.parseInt(scanner.nextLine());
-        int[] arr = new int[n];
-        for (int i = 0; i < n; i++) {
-            arr[i] = scanner.nextInt();
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();
+
+        int N = Integer.parseInt(br.readLine());
+        int[] arr = new int[N];
+
+        for (int i = 0; i < N; i++) {
+            arr[i] = Integer.parseInt(br.readLine());
         }
         Arrays.sort(arr);
-        StringBuffer stringBuffer = new StringBuffer();
-        for (Integer integer : arr) {
-            stringBuffer.append(integer).append("\n");
+
+        for (int i = 0; i < N; i++) {
+            sb.append(arr[i]).append('\n');
         }
-        System.out.println(stringBuffer);
+        System.out.println(sb);
     }
 
 }
