@@ -1,7 +1,6 @@
 package beakjoon;
 
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 //2021.01.19
 //숫자야구 연습중!
