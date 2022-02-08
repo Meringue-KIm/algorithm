@@ -22,5 +22,4 @@ public class Lv1_34 {
             return false;
         }
     }
-
 }
