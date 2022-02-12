@@ -9,7 +9,6 @@ public class Q10804 {
 
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
 
-
         for (int i = 0; i < 10; i++) {
             int a = scanner.nextInt() - 1;
             int b = scanner.nextInt() - 1;
