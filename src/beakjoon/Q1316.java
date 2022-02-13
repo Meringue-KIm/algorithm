@@ -15,7 +15,7 @@ public class Q1316 {
             boolean[] bolArr = new boolean[26];
             boolean bol = true;
             for (int j = 0; j < str.length(); j++) {
-                int index = str.charAt(j);
+                int index = str.charAt(j) - 'a';
                 if (bolArr[index]) {
                     if (str.charAt(j) != str.charAt(j - 1)) {
                         bol = false;
