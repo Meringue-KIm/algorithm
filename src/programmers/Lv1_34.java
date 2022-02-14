@@ -16,11 +16,7 @@ public class Lv1_34 {
         }
         if (p == 0 && y == 0) {
             return true;
-        } else if (p == y) {
-            return true;
-        } else {
-            return false;
-        }
+        } else return p == y;
     }
 
 }
