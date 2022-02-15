@@ -1,4 +1,5 @@
 package programmers;
+
 //문자열 내 p와 y의 개수
 public class Lv1_34 {
 
@@ -16,7 +17,9 @@ public class Lv1_34 {
         }
         if (p == 0 && y == 0) {
             return true;
-        } else return p == y;
+        } else {
+            return p == y;
+        }
     }
 
 }
