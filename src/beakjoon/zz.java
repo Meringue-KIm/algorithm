@@ -1,22 +1,19 @@
 package beakjoon;
 
+import java.util.Scanner;
+
 public class zz {
+
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        str1();
+        int[] arr = new int[10];
+        String str = scanner.next();
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = str.charAt(i);
+            System.out.println(((char) arr[i]));
+        }
     }
 
-    private static void str1() {
-        System.out.println('-');
-        System.out.println('a');
-        System.out.println('a');
-
-        System.out.println('-');
-        System.out.println('a');
-        System.out.println('a');
-
-        System.out.println('-');
-        System.out.println('a');
-        System.out.println('a');
-    }
 }
