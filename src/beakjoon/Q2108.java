@@ -1,7 +1,8 @@
 package beakjoon;
 
 import java.util.*;
-
+//2022.02.17 통계학
+//최빈값 실패;
 public class Q2108 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -31,18 +32,19 @@ public class Q2108 {
             max = Math.max(i, max);
         }
         System.out.println(arr[max]);
+
         int count = 0;
         int min = list.get(0);
-
         int mm = Collections.max(list);
 
         while (min != mm) {
-            if (min <= mm){
+            if (min <= mm) {
                 min += 1;
                 count++;
             }
         }
         System.out.println(count);
     }
+
 }
 
