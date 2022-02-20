@@ -1,6 +1,7 @@
 package programmers;
 
 import java.util.Stack;
+
 //짝지어 제거하기 (스택활용)
 public class Lv2_2_1 {
 
@@ -15,4 +16,5 @@ public class Lv2_2_1 {
         }
         return stack.isEmpty() ? 1 : 0;
     }
+
 }
