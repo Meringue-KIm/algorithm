@@ -1,16 +1,23 @@
 package programmers;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class Lv1_35 {
 
-    public static void main(String[] args) {
-        String s = "vdsvdsa";
-        String[] strings = {"asdasd", "wfwf", "eded"};
-
-    }
-
-    public String[] solution(String[] strings, int n) {
-        String[] answer = {};
-        return answer;
+    public List<Integer> solution(int[] arr, int divisor) {
+        List<Integer> list = new ArrayList<>();
+        for (int j : arr) {
+            if (j % divisor == 0) {
+                list.add(j);
+            }
+        }
+        if (list.size() == 0) {
+            list.add(-1);
+        }
+        Collections.sort(list);
+        return list;
     }
 
 }
