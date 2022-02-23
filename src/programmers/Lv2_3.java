@@ -1,27 +1,25 @@
 package programmers;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 //가장 큰 수
-//구현조차 실패
+//이해하기
 public class Lv2_3 {
 
-    public static void main(String[] args) {
-
-    }
-
     public static String solution(int[] numbers) {
-        StringBuilder stringBuilder = new StringBuilder();
-        List<Integer> list = new ArrayList<>();
-
-        for (int i = 0; i < numbers.length; i++) {
-            int num = numbers[i];
-            if ()
-        }
-        
-        
         String answer = "";
+        String[] tmp = new String[numbers.length];
+        for (int i = 0; i < numbers.length; i++) {
+            tmp[i] = String.valueOf(numbers[i]);
+        }
+
+        Arrays.sort(tmp, (s1, s2) -> (s2 + s1).compareTo(s1 + s2));
+        if (tmp[0].equals("0")) {
+            return "0";
+        }
+        for (String x : tmp) {
+            answer += x;
+        }
         return answer;
     }
 
