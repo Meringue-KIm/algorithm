@@ -13,6 +13,7 @@ public class Lv1_33 {
 
     public static int[] solution(String[] id_list, String[] report, int k) {
         Set<String> set = new HashSet<>(Arrays.asList(report));
+
         return
     }
 }
