@@ -5,7 +5,6 @@ import java.util.Map;
 import java.util.Scanner;
 //비밀편지
 public class Q2596 {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int t = scanner.nextInt();
