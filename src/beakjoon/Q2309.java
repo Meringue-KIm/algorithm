@@ -4,10 +4,11 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Q2309 {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int[] arr = new int [9];
+        int[] arr = new int[9];
         boolean check = false;
         int sum = 0;
 
@@ -18,7 +19,6 @@ public class Q2309 {
         }
         // arr[i] = scanner.nextInt();
         // sum = sum + arr[i]; // sum += arr[i];
-
         for (int i = 0; i < 9; i++) {
             if (check) {
                 break;
@@ -43,4 +43,5 @@ public class Q2309 {
             }
         }
     }
+
 }
