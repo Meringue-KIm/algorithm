@@ -17,7 +17,6 @@ public class JS_3 {
             count--;
             int[] arr2 = new int[count];
             int num = 0;
-
             for (int i = 0; i < arr.length; i++) {
                 if (i == 인덱스) {
                     continue;
