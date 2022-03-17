@@ -1,6 +1,5 @@
 package beakjoon;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Q2562 {
