@@ -6,6 +6,7 @@ public class Q10820 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int num;
         while (scanner.hasNextLine()) {
             String str = scanner.nextLine();
             int 소문자 = 0;
