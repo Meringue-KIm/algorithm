@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 //모의고사
 public class Lv1_37 {
-
     public static int[] solution(int[] answers) {
         List<int[]> list = new ArrayList<>();
         int[] user1 = {1, 2, 3, 4, 5};
