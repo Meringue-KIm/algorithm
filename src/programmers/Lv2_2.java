@@ -3,6 +3,7 @@ package programmers;
 import java.util.ArrayList;
 import java.util.List;
 //짝지어 제거하기 (효율성 테스트에서 떨어짐..)
+//스택 활용해야함
 public class Lv2_2 {
 
     public static int solution(String s) {
