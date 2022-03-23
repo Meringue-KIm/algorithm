@@ -17,7 +17,5 @@ public class Q13458 {
         int c = scanner.nextInt();
 
 
-
-
     }
 }
