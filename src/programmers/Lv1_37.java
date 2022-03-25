@@ -2,6 +2,7 @@ package programmers;
 
 import java.util.ArrayList;
 import java.util.List;
+
 //모의고사
 public class Lv1_37 {
     public static int[] solution(int[] answers) {

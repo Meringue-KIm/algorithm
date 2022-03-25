@@ -16,6 +16,7 @@ public class Q13458 {
         long total = 0;
         long 총감독관 = scanner.nextLong();
         long 부감독관 = scanner.nextLong();
+
         for (int i = 0; i < n; i++) {
             if (시험장[i] <= 총감독관) {
                 total++;
@@ -24,6 +25,7 @@ public class Q13458 {
                 시험장[i] -= 총감독관;
                 total++;
             }
+
             long 나누기 = 시험장[i] / 부감독관;
             long 나머지 = 시험장[i] % 부감독관;
             if (나머지 > 0) {

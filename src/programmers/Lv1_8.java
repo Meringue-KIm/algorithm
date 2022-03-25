@@ -1,4 +1,5 @@
 package programmers;
+
 //로또의 최고 순위와 최저 순위
 public class Lv1_8 {
     public static int[] solution(int[] lottos, int[] win_nums) {
@@ -45,8 +46,8 @@ public class Lv1_8 {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,6};
-        int[] warr = {7,8,9,10,11,12};
+        int[] arr = {1, 2, 3, 4, 5, 6};
+        int[] warr = {7, 8, 9, 10, 11, 12};
 
         int[] arr1 = solution(arr, warr);
 
