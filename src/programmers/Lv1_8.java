@@ -25,7 +25,6 @@ public class Lv1_8 {
                 winNumberCount++;
             }
         }
-
         int maxCount = 1;
         int minCount = 1;
         for (int i = 6; i > 0; i--) {
