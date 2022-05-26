@@ -10,7 +10,6 @@ public class Lv1_41 {
         for (int i = 0; i < a - 1; i++) {
             date += month[i];
         }
-
         date += b - 1;
 
         return day[date % 7];
