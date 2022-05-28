@@ -1,4 +1,5 @@
 package programmers;
+
 //소수찾기 (제곱근)
 public class Lv1_38 {
 

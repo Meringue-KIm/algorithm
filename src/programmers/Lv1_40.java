@@ -1,4 +1,5 @@
 package programmers;
+
 //최소직사각형
 public class Lv1_40 {
 
@@ -16,7 +17,7 @@ public class Lv1_40 {
                     index = i;
                 }
             }
-            if ( sizes[index][1] > sizes[index][0]) {
+            if (sizes[index][1] > sizes[index][0]) {
                 int num = sizes[index][0];
                 sizes[index][0] = sizes[index][1];
                 sizes[index][1] = num;
