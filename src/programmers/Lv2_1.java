@@ -18,4 +18,5 @@ public class Lv2_1 {
         }
         return min + " " + max;
     }
+
 }
