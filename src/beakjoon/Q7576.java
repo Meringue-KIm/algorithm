@@ -21,4 +21,5 @@ public class Q7576 {
         }
         System.out.println(정답);
     }
+
 }
