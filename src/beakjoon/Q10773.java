@@ -8,10 +8,8 @@ public class Q10773 {
         int count = -1;
         int k = scanner.nextInt();
         int[] arr = new int[k];
-
         for (int i = 0; i < k; i++) {
             int num = scanner.nextInt();
-
             if (num == 0) {
                 count--;
             } else {
@@ -20,7 +18,6 @@ public class Q10773 {
             }
         }
         int sum = 0;
-
         for (int i = 0; i <= count; i++) {
             sum += arr[i];
         }
