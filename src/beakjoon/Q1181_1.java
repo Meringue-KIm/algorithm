@@ -2,6 +2,7 @@ package beakjoon;
 
 import java.util.*;
 //compareTo 안쓰고 풀기 실패;
+//문자열 앞에 문자열 길이를 붙여서 소트를 했지만 10은 맨 앞 1을 기준으로 정렬하는듯함..
 public class Q1181_1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
