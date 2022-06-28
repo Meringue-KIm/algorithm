@@ -1,4 +1,4 @@
-package CodeUp;
+package beakjoon;
 
 import java.util.Scanner;
 
