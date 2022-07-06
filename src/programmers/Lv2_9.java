@@ -1,7 +1,8 @@
 package programmers;
 
 import java.util.*;
-
+//줄 서는 방법 (순열)
+//실패
 public class Lv2_9 {
 
     public static void main(String[] args) {
