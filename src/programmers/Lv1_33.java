@@ -8,12 +8,11 @@ public class Lv1_33 {
         String[] id_list = {"muzi", "frodo", "apeach", "neo"};
         String[] report = {"muzi frodo", "apeach frodo", "frodo neo", "muzi neo", "apeach muzi"};
         int k = 2;
-        //System.out.println(Arrays.toString(solution(id_list, report, k)));
+        System.out.println(Arrays.toString(solution(id_list, report, k)));
     }
 
-//    public static int[] solution(String[] id_list, String[] report, int k) {
-//        Set<String> set = new HashSet<>(Arrays.asList(report));
-//
-//        return
-//    }
+    public static int[] solution(String[] id_list, String[] report, int k) {
+        int[] answer = {};
+        return answer;
+    }
 }
