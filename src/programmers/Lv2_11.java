@@ -2,6 +2,7 @@ package programmers;
 
 import java.util.Arrays;
 //숫자 블록 (실패)
+//22.07.13 다시풀기..
 public class Lv2_11 {
 
     public static void main(String[] args) {
