@@ -1,24 +1,23 @@
 package programmers;
 
+import java.util.Stack;
+//올바른 괄호
 public class Lv2_13 {
 
-    public static void main(String[] args) {
-        int[][] arr = new int[4][5];
-
-
-    }
-
-    public int solution(int[][] board) {
-        int answer = 1234;
-
-        for (int i = 0; i < board.length; i++) {
-            if (board[i][0] == 0)
-
-            for (int j = 0; j < board[i].length; j++) {
-                
+    static boolean solution(String s) {
+        Stack<Character> stack = new Stack<>();
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if (i == 0 && c == ')') {
+                return false;
+            }
+            if (!stack.isEmpty() && c == ')') {
+                stack.pop();
+            } else {
+                stack.push(c);
             }
         }
-
-        return answer;
+        return stack.isEmpty();
     }
+
 }
