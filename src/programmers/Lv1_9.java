@@ -8,4 +8,5 @@ public class Lv1_9 {
             return "Odd";
         }
     }
+
 }
