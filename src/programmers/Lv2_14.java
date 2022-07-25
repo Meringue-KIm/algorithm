@@ -2,10 +2,6 @@ package programmers;
 //124 나라의 숫자
 public class Lv2_14 {
 
-    public static void main(String[] args) {
-
-    }
-
     public String solution(int n) {
         String[] numbers = {"4", "1", "2"};
         StringBuilder answer = new StringBuilder();
