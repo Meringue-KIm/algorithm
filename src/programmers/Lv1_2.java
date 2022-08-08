@@ -1,6 +1,8 @@
 package programmers;
+
 //행렬의 덧셈
 public class Lv1_2 {
+
     public int[][] solution(int[][] arr1, int[][] arr2) {
         int[][] answer = new int[arr1.length][arr1[0].length];
         for (int i = 0; i < arr1.length; i++) {
@@ -10,4 +12,5 @@ public class Lv1_2 {
         }
         return answer;
     }
+
 }
