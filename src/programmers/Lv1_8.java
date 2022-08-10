@@ -2,6 +2,7 @@ package programmers;
 
 //로또의 최고 순위와 최저 순위
 public class Lv1_8 {
+
     public static int[] solution(int[] lottos, int[] win_nums) {
         int[] answer = new int[2];
         int winNumberCount = 0;
