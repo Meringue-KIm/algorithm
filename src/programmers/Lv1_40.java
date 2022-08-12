@@ -1,5 +1,4 @@
 package programmers;
-
 //최소직사각형
 public class Lv1_40 {
 
