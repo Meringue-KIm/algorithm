@@ -6,13 +6,6 @@ import java.util.*;
 //22.07.07 다시풀기 (성공)
 public class Lv1_33 {
 
-    public static void main(String[] args) {
-        String[] id_list = {"con", "ryan"};
-        String[] report = {"ryan con", "ryan con", "ryan con", "ryan con"};
-        int k = 3;
-        System.out.println(Arrays.toString(solution(id_list, report, k)));
-    }
-
     public static int[] solution(String[] id_list, String[] report, int k) {
         Map<String, Set<String>> users = new HashMap<>();
         Map<String, Integer> reportCount = new HashMap<>();
