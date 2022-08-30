@@ -12,6 +12,7 @@ public class Lv2_2 {
         for (int i = 0; i < s.length(); i++) {
             list.add(s.charAt(i));
         }
+
         int count = 1;
 
         for (int i = 0; i < list.size(); i++) {
@@ -32,5 +33,7 @@ public class Lv2_2 {
         } else {
             return 0;
         }
+
     }
+
 }
