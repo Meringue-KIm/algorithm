@@ -34,7 +34,6 @@ public class Lv2_9 {
         return answer;
     }
 
-
     //내가 짠 로직(실패 ㅠ)
 //    public static int[] solution(int n, long k) {
 //        StringBuilder sb = new StringBuilder();
